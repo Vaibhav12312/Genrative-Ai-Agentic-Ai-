@@ -1,0 +1,28 @@
+# Real run output (uvicorn app.main:app, captured 2026-11-13)
+
+$ curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:8001/docs
+HTTP 200
+
+$ curl -s http://127.0.0.1:8001/health
+{"status":"ok","faq_entries":6,"original_epfo_faq_records":20}
+
+## openapi paths
+EPFOSathi API 0.1.0
+/health
+/faq
+/ask
+
+## /faq entries: 26
+
+## /ask for the 10 questions
+Q1: answered=True matched_id=uan
+Q2: answered=True matched_id=contribution
+Q3: answered=True matched_id=passbook
+Q4: answered=True matched_id=transfer
+Q5: answered=True matched_id=kyc
+Q6: answered=False matched_id=None
+Q7: answered=True matched_id=grievance
+Q8: answered=True matched_id=passbook
+Q9: answered=True matched_id=uan
+Q10: answered=True matched_id=kyc
+extra (original FAQ): answered=True matched_id=epfo-faq-14

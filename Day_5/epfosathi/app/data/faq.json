@@ -1,0 +1,82 @@
+[
+  {
+    "id": "uan",
+    "keywords": [
+      "uan",
+      "universal account number",
+      "activate"
+    ],
+    "question": "What is a UAN and how do I activate it?",
+    "answer": "UAN (Universal Account Number) is a 12-digit number given to every EPF member. It stays the same even if you change jobs. Activate it on the EPFO Member Portal (unifiedportal-mem.epfindia.gov.in) using your UAN, Aadhaar-linked mobile number and the OTP you receive."
+  },
+  {
+    "id": "contribution",
+    "keywords": [
+      "contribution",
+      "contribute",
+      "12%",
+      "deduct",
+      "employer share",
+      "eps",
+      "deducted",
+      "deduction",
+      "salary"
+    ],
+    "question": "How much is deducted for PF and what does the employer pay?",
+    "answer": "The employee contributes 12% of basic pay plus dearness allowance. The employer also contributes 12%, of which 8.33% goes to the Employees' Pension Scheme (on wages up to the statutory ceiling) and the rest goes to the EPF account."
+  },
+  {
+    "id": "passbook",
+    "keywords": [
+      "passbook",
+      "balance",
+      "check",
+      "statement",
+      "deposit",
+      "deposited",
+      "depositing",
+      "deposits"
+    ],
+    "question": "How do I check my PF balance or passbook?",
+    "answer": "Log in at passbook.epfindia.gov.in with your UAN and password, or use the UMANG app. Your passbook shows employer and employee contributions month by month."
+  },
+  {
+    "id": "grievance",
+    "keywords": [
+      "complaint",
+      "grievance",
+      "igms",
+      "epfigms",
+      "problem",
+      "not resolved"
+    ],
+    "question": "Where can I file a complaint with EPFO?",
+    "answer": "You can register a grievance on the EPFiGMS portal (epfigms.gov.in). You receive a registration number to track the status."
+  },
+  {
+    "id": "kyc",
+    "keywords": [
+      "kyc",
+      "aadhaar",
+      "bank account",
+      "link",
+      "seeding",
+      "bank",
+      "bank details"
+    ],
+    "question": "Why do I need to link Aadhaar and bank details to my UAN?",
+    "answer": "Aadhaar, PAN and bank details linked (KYC-verified) to your UAN are generally needed for online claims and for the money to be paid to the right bank account. You can update KYC in the Member Portal under Manage > KYC."
+  },
+  {
+    "id": "transfer",
+    "keywords": [
+      "transfer",
+      "job change",
+      "new employer",
+      "old employer",
+      "merge"
+    ],
+    "question": "How do I transfer my PF when I change jobs?",
+    "answer": "Make sure your new employer has linked your existing UAN, then file an online transfer claim from the Member Portal (Online Services > One Member - One EPF Account). The claim is attested by the employer."
+  }
+]
