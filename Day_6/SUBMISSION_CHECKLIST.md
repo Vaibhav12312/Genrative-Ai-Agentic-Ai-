@@ -23,8 +23,4 @@
 - [x] No real `.env` file or API key is included.
 - [ ] Live 20-call provider evaluation is pending a network-enabled environment and a valid Groq or Gemini API key. The report does not fabricate model outputs or scores.
 
-## Before using a real provider
-1. Copy `.env.example` to `.env`.
-2. Add your own Groq or Gemini API key locally.
-3. Set `LLM_PROVIDER=groq` or `LLM_PROVIDER=gemini`.
-4. Run `python -m eval.run_eval` to collect live outputs for both prompt versions.
+
