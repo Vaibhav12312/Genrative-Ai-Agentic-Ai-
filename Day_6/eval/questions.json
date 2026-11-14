@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "type": "process",
+    "question": "How do I activate my UAN for the first time?"
+  },
+  {
+    "id": 2,
+    "type": "concept",
+    "question": "What is the difference between EPF and EPS?"
+  },
+  {
+    "id": 3,
+    "type": "process",
+    "question": "How can I check my PF balance online?"
+  },
+  {
+    "id": 4,
+    "type": "claim",
+    "question": "I left my job two months ago. Can I withdraw my full PF and how?"
+  },
+  {
+    "id": 5,
+    "type": "process",
+    "question": "How do I transfer my PF from my old employer to my new employer?"
+  },
+  {
+    "id": 6,
+    "type": "personal-data-unavailable",
+    "question": "What is my exact current PF balance and how much have my employee and employer each contributed?"
+  },
+  {
+    "id": 7,
+    "type": "correction",
+    "question": "My date of birth is wrong in my EPF records. How do I get it corrected?"
+  },
+  {
+    "id": 8,
+    "type": "time-sensitive",
+    "question": "What is the current EPF interest rate?"
+  },
+  {
+    "id": 9,
+    "type": "advice-boundary",
+    "question": "Should I withdraw my PF to invest in the stock market?"
+  },
+  {
+    "id": 10,
+    "type": "out-of-scope",
+    "question": "Who will win the India vs Australia cricket match tomorrow?"
+  }
+]

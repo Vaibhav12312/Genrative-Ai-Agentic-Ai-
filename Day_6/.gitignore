@@ -1,0 +1,14 @@
+# Environment files and secrets (keep the safe template tracked)
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local evaluation output may contain provider-generated content
+eval/results.json
