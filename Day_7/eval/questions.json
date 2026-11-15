@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "How can an employee submit PF final settlement, pension withdrawal and partial withdrawal claims online?"
+  },
+  {
+    "id": 2,
+    "question": "What requirements must a member fulfil before filing an online EPF claim?"
+  },
+  {
+    "id": 3,
+    "question": "When can a member submit Form 19 after leaving an establishment?"
+  },
+  {
+    "id": 4,
+    "question": "What are the conditions for claiming pension withdrawal benefit using Form 10C?"
+  },
+  {
+    "id": 5,
+    "question": "How can I transfer my provident fund account when I change employers?"
+  },
+  {
+    "id": 6,
+    "question": "Can a court attach or seize money in an employee provident fund account?"
+  },
+  {
+    "id": 7,
+    "question": "Can an apprentice become a member of the Employees Provident Fund?"
+  },
+  {
+    "id": 8,
+    "question": "How long does an EPF account continue earning interest after retirement or leaving employment?"
+  },
+  {
+    "id": 9,
+    "question": "Which details need to be linked or seeded with UAN for online claim submission?"
+  },
+  {
+    "id": 10,
+    "question": "Can an employee stop EPF membership while still working?"
+  }
+]
