@@ -1,0 +1,26 @@
+[
+  {
+    "id": "EPFO-MEMBER-PORTAL",
+    "title": "EPFO Unified Member Portal",
+    "url": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/",
+    "text": "The EPFO Unified Member Portal provides member services. The portal currently displays options including Activate UAN, Know Your UAN, Track Application Status, and member login. EPFO states that UAN activation for existing UANs and generation of new UANs can be done through the UMANG app using Aadhaar-based Face Authentication (FAT). The portal says the earlier UAN activation and direct UAN allotment facilities on that portal have been discontinued. For assistance, the portal lists EPFO helpdesk number 14470. EPFO warns members not to share UAN passwords, Aadhaar, PAN, bank details, or OTPs with callers and says it does not ask members to deposit money."
+  },
+  {
+    "id": "EPFO-PASSBOOK",
+    "title": "EPFO Member Passbook and Claim Status",
+    "url": "https://www.passbook.epfindia.gov.in/MemberPassBook/login",
+    "text": "The official EPFO Member Passbook service is titled EPF Passbook and Claim Status. It provides a member sign-in using UAN and password. The page warns members never to respond to calls asking for Aadhaar, PAN, bank details, OTP, or payment. For EPF balance enquiry, the page lists a missed call number 9966044425 and an SMS facility: send EPFOHO UAN LAN to 7738299899, replacing UAN and LAN with the member's details. The page also lists help desk number 1800118005."
+  },
+  {
+    "id": "EPFO-UAN-FAQ",
+    "title": "EPFO Frequently Asked Questions for Members (UAN)",
+    "url": "https://epfindia.gov.in/site_docs/PDFs/UAN_PDFs/UAN_ForMembers/FAQ-Member-Ver1.1.pdf",
+    "text": "UAN stands for Universal Account Number. It acts as an umbrella for multiple Member IDs allotted to an individual by different establishments. A member can use the UAN Member Portal to view linked Member IDs and access available services. The EPFO member FAQ describes services such as downloading a passbook and UAN card, viewing previous Member IDs, entering KYC details, checking online transfer claim eligibility, and editing personal details. The FAQ is an older document, so current portal instructions should take precedence where services have changed."
+  },
+  {
+    "id": "EPFO-EMPLOYER-PORTAL",
+    "title": "EPFO Employer Portal - General Guidance",
+    "url": "https://unifiedportal-emp.epfindia.gov.in/epfo/",
+    "text": "The EPFO employer portal provides employer-facing establishment services. Employers are advised to create a permanent login ID and password after first login. The portal provides forgot-password and account-unlock instructions for employer accounts. This is an employer-facing portal and is not the member passbook login."
+  }
+]

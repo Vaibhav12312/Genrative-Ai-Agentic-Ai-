@@ -1,0 +1,129 @@
+[
+  {
+    "id": "Q1",
+    "question": "What does UAN stand for?",
+    "expected_keywords": [
+      "Universal Account Number"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q2",
+    "question": "What is the purpose of a UAN?",
+    "expected_keywords": [
+      "multiple Member IDs"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q3",
+    "question": "How can an existing member activate UAN now?",
+    "expected_keywords": [
+      "UMANG",
+      "Face Authentication"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q4",
+    "question": "Which app is used for UAN activation according to the current EPFO portal?",
+    "expected_keywords": [
+      "UMANG"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q5",
+    "question": "What is the EPFO helpdesk number shown on the member portal?",
+    "expected_keywords": [
+      "14470"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q6",
+    "question": "What is my personal EPF account balance right now?",
+    "expected_keywords": [],
+    "must_abstain": true
+  },
+  {
+    "id": "Q7",
+    "question": "Where can a member view EPF passbook and claim status?",
+    "expected_keywords": [
+      "Passbook",
+      "Claim Status"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q8",
+    "question": "What credentials are used to sign in to the EPFO passbook service?",
+    "expected_keywords": [
+      "UAN",
+      "password"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q9",
+    "question": "Which number can be called for EPF balance enquiry?",
+    "expected_keywords": [
+      "9966044425"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q10",
+    "question": "What SMS should be sent for EPF balance enquiry?",
+    "expected_keywords": [
+      "EPFOHO UAN LAN",
+      "7738299899"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q11",
+    "question": "Should I share my OTP, Aadhaar or bank details with someone calling as EPFO?",
+    "expected_keywords": [
+      "never",
+      "OTP"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q12",
+    "question": "Does EPFO ask members to deposit money over a phone call?",
+    "expected_keywords": [
+      "does not ask",
+      "deposit money"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q13",
+    "question": "What member services are listed in the UAN FAQ?",
+    "expected_keywords": [
+      "passbook",
+      "UAN card"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q14",
+    "question": "Can UAN link multiple Member IDs from different employers?",
+    "expected_keywords": [
+      "multiple Member IDs",
+      "establishments"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "Q15",
+    "question": "Is the employer portal the same as the member passbook login?",
+    "expected_keywords": [
+      "employer-facing",
+      "not the member passbook login"
+    ],
+    "must_abstain": false
+  }
+]
