@@ -1,0 +1,52 @@
+[
+  {
+    "source_id": "EPF-001",
+    "title": "EPF membership and UAN",
+    "text": "Employees' Provident Fund (EPF) is a retirement savings scheme for eligible employees. A Universal Account Number (UAN) helps link a member's EPF accounts across employers."
+  },
+  {
+    "source_id": "EPF-002",
+    "title": "Online claim basics",
+    "text": "Members can submit eligible EPF claims through the EPFO member portal using an activated UAN and required KYC details. Bank, Aadhaar and PAN details should be verified where applicable."
+  },
+  {
+    "source_id": "EPF-003",
+    "title": "Final settlement waiting period",
+    "text": "For resignation-related final PF settlement, the configured task rule uses a waiting period of two months after the recorded exit date before the final withdrawal date."
+  },
+  {
+    "source_id": "EPF-004",
+    "title": "Tax deduction rule used in this project",
+    "text": "For this project's simplified rule calculation, tax deducted at source (TDS) can apply when completed service is less than five years. Actual tax treatment can depend on exceptions and current law."
+  },
+  {
+    "source_id": "EPF-005",
+    "title": "Pension scheme certificate",
+    "text": "For this project's simplified rule calculation, a scheme certificate is mandatory when pensionable service is ten years or more and the member is below 58 years of age."
+  },
+  {
+    "source_id": "EPF-006",
+    "title": "Claim status",
+    "text": "A member can check claim status through the EPFO member portal using the relevant UAN login and claim details."
+  },
+  {
+    "source_id": "EPF-007",
+    "title": "KYC updates",
+    "text": "Members should ensure that personal details and KYC information are accurate and consistent before submitting online EPF claims."
+  },
+  {
+    "source_id": "EPF-008",
+    "title": "Employer exit date",
+    "text": "The date of exit recorded by the employer is important for online EPF claims and withdrawal eligibility calculations."
+  },
+  {
+    "source_id": "EPF-009",
+    "title": "Transfer between employers",
+    "text": "When changing jobs, eligible EPF balances may be transferred to the new member ID linked with the same UAN rather than withdrawn."
+  },
+  {
+    "source_id": "EPF-010",
+    "title": "Nomination",
+    "text": "EPF members should review and maintain an e-nomination where applicable so that nominee details are available for eligible benefits."
+  }
+]
