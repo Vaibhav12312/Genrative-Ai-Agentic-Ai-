@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EPFOSathi — Your EPF Helpdesk</title>
+<style>
+:root{font-family:Inter,system-ui,Arial,sans-serif;color:#14243a;background:#f3f6fb}*{box-sizing:border-box}body{margin:0}.top{background:linear-gradient(120deg,#102c50,#176b68);color:white;padding:30px max(22px,calc((100% - 1050px)/2))}.top h1{margin:0 0 8px;font-size:30px}.top p{margin:0;color:#d6e8ef}.wrap{max-width:1050px;margin:28px auto;padding:0 18px}.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.panel{background:white;border:1px solid #e2e9f2;border-radius:16px;padding:22px;box-shadow:0 8px 24px #17304b0a}.panel h2{margin:0 0 8px;font-size:19px}.muted{color:#64748b;font-size:14px}input,textarea{width:100%;border:1px solid #cbd5e1;border-radius:10px;padding:12px;font:inherit;margin:10px 0}button{background:#126b68;color:white;border:0;border-radius:10px;padding:11px 17px;font-weight:650;cursor:pointer}button:hover{background:#0c5553}.results{margin-top:14px}.item{border-top:1px solid #edf1f6;padding:12px 0}.item strong{display:block}.answer{white-space:pre-wrap;line-height:1.6;margin-top:14px}.source{font-size:13px;color:#52657d;margin-top:10px}.notice{font-size:12px;color:#64748b;margin-top:22px}@media(max-width:720px){.grid{grid-template-columns:1fr}.top h1{font-size:25px}}
+</style></head>
+<body><header class="top"><h1>EPFOSathi</h1><p>Your simple guide to EPF and EPFO information</p></header>
+<main class="wrap"><div class="grid"><section class="panel"><h2>Ask EPFOSathi</h2><p class="muted">Ask a question about UAN, KYC, claims, passbook, PF transfer or grievances.</p><textarea id="question" rows="3" placeholder="e.g. How can I check my PF claim status?"></textarea><button id="ask">Get an answer</button><div id="answer" class="answer" aria-live="polite"></div></section>
+<section class="panel"><h2>Search the help library</h2><p class="muted">Search the available guidance records.</p><input id="query" placeholder="Search EPF topics..."><button id="search">Search records</button><div id="results" class="results"></div></section></div>
+<section class="panel" style="margin-top:20px"><h2>Knowledge records</h2><p class="muted" id="count">Loading records…</p><div id="records" class="results"></div></section>
+<p class="notice">Disclaimer: EPFOSathi provides general informational guidance, not official EPFO services or account-specific decisions. Do not enter UANs, Aadhaar numbers, bank details, passwords or OTPs. Always confirm current rules and claim status through official EPFO channels.</p></main>
+<script>
+const $=id=>document.getElementById(id);
+async function api(url,options){const r=await fetch(url,options);const data=await r.json();if(!r.ok)throw new Error(data.detail||'Request failed');return data}
+function render(items,target){$(target).innerHTML=items.length?items.map(x=>`<div class="item"><strong>${escapeHtml(x.title)}</strong><span class="muted">${escapeHtml(x.category)} · ${escapeHtml(x.id)}</span><div>${escapeHtml(x.content)}</div></div>`).join(''):'<p class="muted">No matching records found.</p>'}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+$('ask').onclick=async()=>{const q=$('question').value.trim();if(q.length<3){$('answer').textContent='Please enter at least 3 characters.';return}$('answer').textContent='Finding relevant guidance…';try{const d=await api('/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})});$('answer').textContent=d.answer+'\n\nSources: '+(d.sources.map(s=>s.title).join('; ')||'No matching records');}catch(e){$('answer').textContent=e.message}};
+$('search').onclick=async()=>{const q=$('query').value.trim();if(!q){$('results').textContent='Enter a search term.';return}try{const d=await api('/api/search?q='+encodeURIComponent(q));render(d.results,'results')}catch(e){$('results').textContent=e.message}};
+$('query').addEventListener('keydown',e=>{if(e.key==='Enter')$('search').click()});
+api('/api/records').then(d=>{$('count').textContent=d.count+' guidance records available';render(d.records,'records')}).catch(e=>$('count').textContent=e.message);
+</script></body></html>
