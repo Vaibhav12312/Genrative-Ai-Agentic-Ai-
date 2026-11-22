@@ -1,0 +1,15 @@
+# Keep the Docker build context small and exclude local-only files.
+.git
+.github
+.venv
+__pycache__
+**/__pycache__
+.pytest_cache
+.ruff_cache
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3

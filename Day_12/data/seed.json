@@ -1,0 +1,38 @@
+[
+  {
+    "legacy_id": "UAN-001",
+    "title": "What is a Universal Account Number (UAN)?",
+    "category": "UAN",
+    "content": "UAN is a 12-digit number allotted by EPFO. It acts as a single identifier for a member across multiple Member IDs linked to different employers. Keep it confidential and use official EPFO channels for account actions."
+  },
+  {
+    "legacy_id": "KYC-001",
+    "title": "How do I update KYC details?",
+    "category": "KYC",
+    "content": "Members can sign in to the official EPFO member portal and use the Manage section to submit eligible KYC details. Aadhaar, PAN and bank details may require verification by the relevant authority or employer. Never share OTPs or passwords."
+  },
+  {
+    "legacy_id": "CLAIM-001",
+    "title": "How can I check a PF claim?",
+    "category": "Claims",
+    "content": "A member can check claim status through the official EPFO member portal or UMANG app. Keep the UAN and registered mobile available. Processing times can vary; rely on the official portal for current status."
+  },
+  {
+    "legacy_id": "PASSBOOK-001",
+    "title": "Where can I view my EPF passbook?",
+    "category": "Passbook",
+    "content": "Eligible members can access the EPF passbook through the EPFO passbook portal using their member credentials. Passbook availability may be delayed for some exempted establishments or during service interruptions."
+  },
+  {
+    "legacy_id": "TRANSFER-001",
+    "title": "How do I transfer PF when changing jobs?",
+    "category": "Transfer",
+    "content": "When changing jobs, members can generally submit an online transfer request through the EPFO member portal, subject to eligibility and KYC requirements. Verify employer and member details before submitting."
+  },
+  {
+    "legacy_id": "GRIEVANCE-001",
+    "title": "How do I raise an EPFO grievance?",
+    "category": "Grievance",
+    "content": "Members can lodge and track a complaint using the official EPFiGMS grievance portal. Include relevant reference details, avoid sharing passwords or OTPs, and retain the grievance registration number."
+  }
+]
