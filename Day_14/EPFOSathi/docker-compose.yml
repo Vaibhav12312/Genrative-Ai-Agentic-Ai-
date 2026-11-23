@@ -1,0 +1,14 @@
+services:
+  epfosathi:
+    build: .
+    container_name: epfosathi
+    ports:
+      - "8000:8000"
+    environment:
+      EPFOSATHI_DB: /app/data/epfosathi.db
+    volumes:
+      - epfosathi_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  epfosathi_data:
