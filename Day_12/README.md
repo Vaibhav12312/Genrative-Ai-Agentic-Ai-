@@ -107,7 +107,7 @@ A Render Blueprint is included in `render.yaml`. To deploy:
 1. Push this project to the GitHub repository.
 2. In Render, choose **New → Blueprint**, connect `Vaibhav12312/Genrative-Ai-Agentic-Ai-`, and select the branch containing this project.
 3. Confirm the `epfosathi` web service from `render.yaml` and deploy it. The Docker image seeds the six starter records on each fresh container start.
-4. Copy the real Render URL (for example, `https://epfosathi-xxxx.onrender.com`) into the **Live deployment URL** fields in this README and `TRACKER.md`. Do not use the example URL as if it were real.
+4. Copy the real Render URL (for example, `https://genrative-ai-agentic-ai-2.onrender.com/`) into the **Live deployment URL** fields in this README and `TRACKER.md`. Do not use the example URL as if it were real.
 5. Verify publicly: `https://YOUR-REAL-RENDER-URL/health` must return HTTP 200 and `{"status":"ok","service":"EPFOSathi"}`. Record the check date in `TRACKER.md`.
 
 **Storage note:** The included Render free-plan configuration uses the container's local filesystem. SQLite data may be reset when the service is replaced or restarted. The six bundled knowledge records are re-seeded at startup; records created through the API are not guaranteed to persist. For persistent user-created records, attach a paid persistent disk and set `DATABASE_PATH` to a path on that disk.
